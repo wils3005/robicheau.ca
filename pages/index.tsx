@@ -6,13 +6,14 @@ function Home(): JSX.Element {
     <div className={styles.container}>
       <Head>
         <title>robicheau.ca</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/robicheau.ca/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <hgroup>
           <h1 className={styles.title}>
-            Welcome to <a href="https://robicheau.ca">robicheau.ca!</a>
+            Welcome to{" "}
+            <a href="https://wils3005.github.io/robicheau.ca">robicheau.ca!</a>
           </h1>
           <h2>Secondary blah blah...</h2>
         </hgroup>
