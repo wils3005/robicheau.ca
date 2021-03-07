@@ -1,29 +1,23 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import Image from "next/image";
+import styles from "../styles/home.module.css";
 
-function Home(): JSX.Element {
+function main(): JSX.Element {
   return (
-    <div className={styles.container}>
+    <main className={styles.main}>
       <Head>
         <title>robicheau.ca</title>
         <link rel="icon" href="/robicheau.ca/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <hgroup>
-          <h1 className={styles.title}>
-            Welcome to{" "}
-            <a href="https://wils3005.github.io/robicheau.ca">robicheau.ca!</a>
-          </h1>
-          <h2>Secondary blah blah...</h2>
-        </hgroup>
-      </main>
+      <header>main header</header>
+      <section>main section</section>
 
       <footer className={styles.footer}>
-        <p>top level footer</p>
+        <p>main footer</p>
       </footer>
-    </div>
+    </main>
   );
 }
 
-export default Home;
+export default main;
