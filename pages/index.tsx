@@ -16,10 +16,9 @@ function main(): JSX.Element {
       <header>
         <a href="/">Home</a>
         <a href="#">About</a>
-        <a href="#">Contact</a>
-        <div>
-          <a href="#">DONATE</a>
-        </div>
+        <a href="#">Take Action</a>
+        <a href="#">Volunteer</a>
+        <a href="#">Endorsements</a>
       </header>
 
       <section>
