@@ -59,7 +59,7 @@ main > section > p {
 }
 
 main > section > p > img {
-  float: right;
+  float: left;
   max-width: 25vw;
 }
 

@@ -22,34 +22,6 @@ function main(): JSX.Element {
       </header>
 
       <section>
-        <img
-          alt="Photo of Nicole in the field"
-          src="/robicheau.ca/nicole-robicheau-field.jpg"
-        ></img>
-      </section>
-
-      <section>
-        <p>
-          Distinctio exercitationem animi eum debitis similique repellat
-          accusantium. Itaque nesciunt voluptas aut. Facere sed dolor id est. Et
-          quia iusto labore non excepturi quam qui alias. Molestias temporibus
-          deleniti amet corporis nihil voluptas aspernatur sed quia. Accusamus
-          eaque qui error rem ducimus. Et quia tempora et aut vero earum. Ipsam
-          reprehenderit maiores accusantium qui aperiam repellendus voluptatum.
-          Non eum omnis blanditiis unde vel enim consequuntur rerum quia.
-          Reiciendis doloribus in aut suscipit enim doloribus. Nisi repudiandae
-          qui rem consequatur voluptatum magni tempore. Fuga temporibus est
-          natus voluptatem corrupti quod. Cupiditate quia et soluta est
-          consequatur iure voluptas eum mollitia. Sunt quia sint cum ut atque.
-          Velit et rerum laudantium accusamus tempora eum deleniti. Rerum et ut
-          necessitatibus voluptatem non nam. Fuga molestiae enim quis quos
-          voluptas a accusamus. Excepturi qui doloremque. Illum et reprehenderit
-          nisi repudiandae voluptate. Animi illum autem ab officiis qui. Aut
-          totam molestiae est neque fuga quos exercitationem error aut.
-        </p>
-      </section>
-
-      <section>
         <p>
           <img
             alt="Headshot of Nicole"
