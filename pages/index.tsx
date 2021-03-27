@@ -5,7 +5,7 @@ function main(): JSX.Element {
     <main>
       <Head>
         <title>robicheau.ca</title>
-        <link href="/robicheau.ca/favicon.ico" rel="icon" />
+        <link href="/favicon.ico" rel="icon" />
 
         <link
           href="//fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700|Roboto:300,400,400i,500,700"
@@ -25,7 +25,7 @@ function main(): JSX.Element {
         <p>
           <img
             alt="Headshot of Nicole"
-            src="/robicheau.ca/nicole-robicheau-headshot.jpg"
+            src="/nicole-robicheau-headshot.jpg"
           ></img>
           Minima quibusdam est cupiditate quibusdam accusamus. Cumque harum non
           corporis delectus suscipit sed accusantium. Sed qui cum molestiae
