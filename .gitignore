@@ -1,8 +1,7 @@
+.netlify/
 .next/
 node_modules/
+out_*/
 
 .env*
 !.env.sample
-
-# Local Netlify folder
-.netlify

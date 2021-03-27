@@ -3,13 +3,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "rimraf docs/",
     "build": "next build",
+    "postbuild": "next-on-netlify",
     "check": "npm-check --update",
-    "eslint": "eslint --fix pages/",
-    "preexport": "npm run build",
-    "export": "next export -o docs",
-    "prestart": "npm run build",
+    "lint": "eslint --fix pages/",
     "start": "next start"
   },
   "devDependencies": {
@@ -25,6 +22,7 @@
     "faker": "^5.5.1",
     "netlify-cli": "^3.13.7",
     "next": "^10.0.9",
+    "next-on-netlify": "^2.9.0",
     "npm-check": "^5.9.2",
     "prettier": "^2.2.1",
     "react": "^17.0.2",
