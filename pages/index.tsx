@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Subscribe } from "./subscribe";
+import Subscribe from "./subscribe";
 
 function main(): JSX.Element {
   return (

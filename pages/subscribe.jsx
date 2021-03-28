@@ -53,4 +53,4 @@ function Subscribe() {
   );
 }
 
-export { Subscribe };
+export default Subscribe;
