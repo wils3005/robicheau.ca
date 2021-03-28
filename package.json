@@ -4,15 +4,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "check": "npm-check --update",
-    "lint": "eslint --fix pages/",
     "start": "next start"
   },
   "dependencies": {
     "@mailchimp/mailchimp_marketing": "^3.0.36",
     "next": "^10.0.9",
     "react": "^17.0.2",
-    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
     "zod": "^3.0.0-alpha.33"
   },
@@ -21,15 +18,11 @@
     "@types/react": "^17.0.3",
     "@typescript-eslint/eslint-plugin": "^4.19.0",
     "@typescript-eslint/parser": "^4.19.0",
-    "bootstrap": "^4.6.0",
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.3.1",
-    "faker": "^5.5.1",
-    "npm-check": "^5.9.2",
     "prettier": "^2.2.1",
-    "rimraf": "^3.0.2",
     "typescript": "^4.2.3"
   }
 }

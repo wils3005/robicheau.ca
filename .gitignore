@@ -1,7 +1,5 @@
-.netlify/
 .next/
 node_modules/
-out_*/
 
 .env*
 !.env.sample
