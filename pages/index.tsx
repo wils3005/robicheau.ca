@@ -1,11 +1,12 @@
 import Head from "next/head";
+import { Subscribe } from "./subscribe";
 
 function main(): JSX.Element {
   return (
     <main>
       <Head>
         <title>robicheau.ca</title>
-        <link href="/favicon.ico" rel="icon" />
+        <link href="favicon.ico" rel="icon" />
 
         <link
           href="//fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700|Roboto:300,400,400i,500,700"
@@ -25,7 +26,7 @@ function main(): JSX.Element {
         <p>
           <img
             alt="Headshot of Nicole"
-            src="/nicole-robicheau-headshot.jpg"
+            src="nicole-robicheau-headshot.jpg"
           ></img>
           Minima quibusdam est cupiditate quibusdam accusamus. Cumque harum non
           corporis delectus suscipit sed accusantium. Sed qui cum molestiae
@@ -66,14 +67,7 @@ function main(): JSX.Element {
       </section>
 
       <footer>
-        <p>
-          Dolores ut et molestias rerum tempore ipsa hic perferendis.
-          Accusantium et fugiat alias laborum eaque sunt praesentium. Eligendi
-          recusandae nihil voluptatem omnis assumenda dignissimos incidunt.
-          Beatae occaecati occaecati. Harum culpa aliquid tempore reprehenderit
-          optio optio vel. Est atque necessitatibus ipsa minima quam doloremque
-          ea earum.
-        </p>
+        <Subscribe />
       </footer>
     </main>
   );
