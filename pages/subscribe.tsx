@@ -1,10 +1,10 @@
-import React, { useRef, useState } from "react";
+import React, { BaseSyntheticEvent, useRef, useState } from "react";
 
-function Subscribe() {
-  const inputEl = useRef(null);
+function Subscribe(): JSX.Element {
+  const inputEl = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState("");
 
-  const subscribe = async (e) => {
+  const subscribe = async (e: BaseSyntheticEvent) => {
     e.preventDefault();
 
     // 3. Send a request to our API with the user's email address.
@@ -18,7 +18,7 @@ function Subscribe() {
       method: "POST",
     });
 
-    const { error } = await res.json();
+    const { error } = (await res.json()) as { error?: string };
 
     if (error) {
       // 4. If there was an error, update the message in state.
@@ -43,10 +43,10 @@ function Subscribe() {
         required
         type="email"
       />
+
       <div>
-        {message
-          ? message
-          : `I'll only send emails when new content is posted. No spam.`}
+        {message ??
+          `I'll only send emails when new content is posted. No spam.`}
       </div>
       <button type="submit">{"SUBSCRIBE"}</button>
     </form>
