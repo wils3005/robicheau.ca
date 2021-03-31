@@ -27,9 +27,6 @@
   },
   "root": true,
   "rules": {
-    "import/exports-last": "warn",
-    "import/no-anonymous-default-export": "warn",
-    "import/no-relative-parent-imports": "warn",
     "sort-imports": "warn"
   },
   "settings": {

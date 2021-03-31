@@ -1,20 +1,12 @@
 function main(): JSX.Element {
   return (
     <section
+      className="flex flex-col items-center bg-pink-400 w-full"
       id="meet-nicole"
-      style={{
-        alignItems: "center",
-        backgroundColor: "#ee7cb7",
-        display: "flex",
-        flexDirection: "column",
-        width: "100%",
-      }}
     >
-      <h1 style={{ color: "white" }}>Meet Nicole</h1>
-      <div
-        style={{ display: "flex", flexDirection: "row-reverse", width: "100%" }}
-      >
-        <div style={{ backgroundColor: "white", width: "95%" }}>
+      <h1 className="text-white">Meet Nicole</h1>
+      <div className="flex flex-row-reverse w-full">
+        <div className="bg-white w-90">
           <img
             alt="TODO"
             src="nicole-robicheau-indoor-headshot-1869-2800.jpg"
