@@ -16,20 +16,22 @@ const { MAILCHIMP_API_KEY, MAILCHIMP_API_SERVER, MAILCHIMP_LIST_ID } = zod
   .parse(process.env);
 
 async function main(req, res) {
-  const { email } = req.body;
-
-  if (!email) {
-    return res.status(400).json({ error: "Email is required" });
-  }
+  const { firstName, lastName, email, postalCode } = req.body;
 
   try {
     await mailchimp.lists.addListMember(MAILCHIMP_LIST_ID, {
       email_address: email,
       status: "subscribed",
+      merge_fields: {
+        FNAME: firstName,
+        LNAME: lastName,
+        MMERGE6: postalCode,
+      },
     });
 
     return res.status(201).json({ error: "" });
   } catch (error) {
+    console.error({ error });
     return res.status(500).json({ error: error.message || error.toString() });
   }
 }

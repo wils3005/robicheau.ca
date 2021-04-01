@@ -1,7 +1,8 @@
 import React, { BaseSyntheticEvent, useRef, useState } from "react";
 
 function main(): JSX.Element {
-  const nameInputElement = useRef<HTMLInputElement>(null);
+  const firstNameInputElement = useRef<HTMLInputElement>(null);
+  const lastNameInputElement = useRef<HTMLInputElement>(null);
   const emailInputElement = useRef<HTMLInputElement>(null);
   const postalCodeInputElement = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState("");
@@ -11,7 +12,8 @@ function main(): JSX.Element {
 
     const res = await fetch("/api/subscribe", {
       body: JSON.stringify({
-        name: nameInputElement.current.value,
+        firstName: firstNameInputElement.current.value,
+        lastName: lastNameInputElement.current.value,
         email: emailInputElement.current.value,
         postalCode: postalCodeInputElement.current.value,
       }),
@@ -28,10 +30,11 @@ function main(): JSX.Element {
       return;
     }
 
-    nameInputElement.current.value = "";
+    firstNameInputElement.current.value = "";
+    lastNameInputElement.current.value = "";
     emailInputElement.current.value = "";
     postalCodeInputElement.current.value = "";
-    setMessage("Success! 🎉 You are now subscribed to the newsletter.");
+    setMessage("Success! 🎉 You are now subscribed!");
   };
 
   return (
@@ -44,9 +47,17 @@ function main(): JSX.Element {
         <form className="form" onSubmit={onSubmit}>
           <div className="form--columns">
             <input
-              id="name"
-              placeholder="Name"
-              ref={nameInputElement}
+              id="first-name"
+              placeholder="First Name"
+              ref={firstNameInputElement}
+              required
+              type="text"
+            />
+
+            <input
+              id="last-name"
+              placeholder="Last Name"
+              ref={lastNameInputElement}
               required
               type="text"
             />
