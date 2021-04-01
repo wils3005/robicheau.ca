@@ -50,14 +50,14 @@ function main(): JSX.Element {
               marginalized.
             </p>
             <img
-              alt="TODO"
+              alt="Nicole in Nepal crouched down taking notes while talking to a man and his son who were impacted by a typhoon"
               className="image image1 is-landscape image--source"
               src="nicole-robicheau-field-5184-3456.jpg"
             ></img>
           </div>
           <div className="section--columns-right">
             <img
-              alt="TODO"
+              alt="Nicole sitting casually on a blue couch smiling and leaning forward"
               className="image image2 is-portrait image--source"
               src="nicole-robicheau-indoor-headshot-1869-2800.jpg"
             ></img>

@@ -36,7 +36,7 @@ function main(): JSX.Element {
 
         <div className="image is-landscape image--wrap">
           <img
-            alt="TODO"
+            alt="Nicole in a park in Davenport sitting down speaking to a pregnant woman with her partner and dog"
             className="image--source"
             src="nicole-robicheau-conversation-2800-1906.jpg"
           ></img>
