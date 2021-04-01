@@ -8,7 +8,7 @@ import WhatICareAbout from "../components/what-i-care-about";
 
 function main(): JSX.Element {
   return (
-    <main className="flex-column">
+    <main>
       <Head />
       <Header />
       <HeroImage />

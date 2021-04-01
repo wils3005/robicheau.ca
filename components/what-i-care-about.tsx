@@ -1,23 +1,11 @@
 function main(): JSX.Element {
   return (
-    <section
-      id="what-i-care-about"
-      style={{
-        alignItems: "center",
-        display: "flex",
-        flexDirection: "column",
-        width: "100%",
-      }}
-    >
-      <h1 style={{ color: "#ee7cb7" }}>What I Care About</h1>
+    <section className="section section-care" id="what-i-care-about">
+      <h1 className="section--title">What I Care About</h1>
 
-      <div style={{ padding: "1rem" }}>
+      <div className="section--content">
         <h2>Climate Action</h2>
-        <img
-          alt="TODO"
-          src="nicole-robicheau-conversation-2800-1906.jpg"
-          style={{ float: "right", maxWidth: "50%" }}
-        ></img>
+
         <p>
           I have seen first-hand the devastating impacts of natural disasters,
           increasing year after year, while responding to earthquakes,
@@ -46,6 +34,14 @@ function main(): JSX.Element {
           close loopholes around evictions.
         </p>
 
+        <div className="image is-landscape image--wrap">
+          <img
+            alt="TODO"
+            className="image--source"
+            src="nicole-robicheau-conversation-2800-1906.jpg"
+          ></img>
+        </div>
+
         <h2>Welcoming Refugees</h2>
         <p>
           I have worked in refugee camps and spoken to folks who’ve travelled
@@ -64,7 +60,7 @@ function main(): JSX.Element {
           resources.
         </p>
 
-        <h2>2SLGBTQIA+ RIGHTS</h2>
+        <h2>2SLGBTQIA+ Rights</h2>
         <p>
           I work to support 2SLGBTQIA+ rights in my community and as part of the
           Ontario NDP LGBT Committee. We need to do more, especially for trans
