@@ -11,7 +11,7 @@ function main(): JSX.Element {
         <div className="menu--links">
           <a href="#meet-nicole">Meet Nicole</a>
           <a href="#what-i-care-about">Action Items</a>
-          <a href="#contact-me">Contact</a>
+          <a href="mailto:nicole@robicheau.ca">Contact</a>
         </div>
 
         <a className="menu--cta button is-orphan" href="#sign-up-for-updates">
