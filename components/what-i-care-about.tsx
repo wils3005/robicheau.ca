@@ -63,7 +63,7 @@ function main(): JSX.Element {
         <h2>2SLGBTQIA+ Rights</h2>
         <p>
           I work to support 2SLGBTQIA+ rights in my community and as part of the
-          Ontario NDP LGBT Committee. We need to do more, especially for trans
+          Ontario NDP LGBTQ Committee. We need to do more, especially for trans
           people of colour, both in Canada, and abroad. Canada should play a
           greater role on the world stage supporting and championing 2SLGBTQIA+
           rights.
