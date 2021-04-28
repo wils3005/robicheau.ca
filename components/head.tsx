@@ -1,10 +1,11 @@
-import Head from "next/head";
+import React, { FC } from "react";
+import NextHead from "next/head";
 
 const TITLE = "robicheau.ca";
 
-function main(): JSX.Element {
+const Head: FC = () => {
   return (
-    <Head>
+    <NextHead>
       <title>{TITLE}</title>
       <link href="favicon.ico" rel="icon" />
 
@@ -32,8 +33,8 @@ function main(): JSX.Element {
         href="//fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700|Roboto:300,400,400i,500,700"
         rel="stylesheet"
       />
-    </Head>
+    </NextHead>
   );
-}
+};
 
-export default main;
+export default Head;
