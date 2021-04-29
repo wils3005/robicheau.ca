@@ -2,12 +2,10 @@ import React, { FC } from "react";
 
 const WhyImRunning: FC = () => {
   return (
-    <section
-      className="section section-meet border border-dashed"
-      id="why-im-running"
-    >
-      <h1 className="section--title">Why I&apos;m Running</h1>
-      <div className="">
+    <section className="section section-meet bg-pink-400" id="why-im-running">
+      <div className="bg-white mx-auto px-2 py-1 w-11/12">
+        <h1 className="section--title">Why I&apos;m Running</h1>
+
         <p>
           How long can we keep putting out fires when we need to address the
           causes of the climate crisis?

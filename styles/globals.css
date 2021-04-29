@@ -794,7 +794,7 @@ html:not(.is-mobile) a:hover {
 .hero--location,
 .section.is-accent .section--title,
 .section.is-accent-full {
-  background-color: #ee7cb7;
+  background-color: #f472b6;
   color: white;
 }
 
@@ -963,13 +963,13 @@ html:not(.is-mobile) .menu--brand:hover {
   padding-left: 2.5rem;
   margin: 0px;
   text-align: center;
-  color: #ee7cb7;
+  color: #f472b6;
 }
 .section--content {
   padding: 0.8333333333rem 2.5rem 1.1111111111rem 2.5rem;
 }
 .section.is-accent .section--content {
-  border-left: 2.5rem solid #ee7cb7;
+  border-left: 2.5rem solid #f472b6;
 }
 .section.is-accent-full {
   padding-bottom: 1em;

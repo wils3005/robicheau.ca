@@ -6,7 +6,7 @@ import Header from "./header";
 
 const Main: FC = ({ children }: { children: ReactNode }) => {
   return (
-    <main className="xl:mx-1">
+    <main className="xl:mx-2">
       <Head />
       <Header />
       {children}
