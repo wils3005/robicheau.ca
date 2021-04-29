@@ -11,14 +11,15 @@ const Header: FC = () => {
         </a>
 
         <div className="menu--links">
-          <a href="/about">About Nicole</a>
-          <a href="/#what-i-care-about">Action Items</a>
+          <a href="/meet-nicole">Meet Nicole</a>
+          <a href="/#what-i-care-about">My Priorities</a>
           <a href="/endorsements">Endorsements</a>
           <a href="mailto:nicole@robicheau.ca">Contact</a>
+          <a href="/#sign-up-for-updates">Subscribe</a>
         </div>
 
-        <a className="menu--cta button is-orphan" href="#sign-up-for-updates">
-          Sign Up
+        <a className="menu--cta button is-orphan" href="/volunteer">
+          Volunteer
         </a>
       </nav>
     </header>

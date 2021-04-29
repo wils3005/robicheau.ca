@@ -2,11 +2,11 @@ import React, { FC } from "react";
 
 import Main from "../components/main";
 
-const About: FC = () => {
+const MeetNicole: FC = () => {
   return (
     <Main>
       <section className="section section-meet is-accent" id="meet-nicole">
-        <h1 className="section--title">About Nicole</h1>
+        <h1 className="section--title">Meet Nicole</h1>
         <div className="section--content offset-bottom-zero">
           <div className="section--columns">
             <div className="section--columns-left">
@@ -76,4 +76,4 @@ const About: FC = () => {
   );
 };
 
-export default About;
+export default MeetNicole;
