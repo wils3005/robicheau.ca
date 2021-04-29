@@ -6,7 +6,7 @@ const Volunteer: FC = () => {
   return (
     <Main>
       <section className="section is-accent">
-        <h1 className="section--title">Endorsements</h1>
+        <h1 className="section--title">Volunteer</h1>
       </section>
     </Main>
   );

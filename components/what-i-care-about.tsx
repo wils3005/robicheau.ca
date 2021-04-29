@@ -41,7 +41,7 @@ const WhatICareAbout: FC = () => {
 
         <h2>Equitable Access to Healthcare</h2>
         <p>
-          ’ve worked in field hospitals sent to support folks affected by
+          I’ve worked in field hospitals sent to support folks affected by
           disasters in last mile contexts, where I’ve seen inequitable access to
           healthcare magnified. I believe in a healthcare system that
           prioritizes mental health along with physical health, and where eyes
