@@ -12,7 +12,7 @@ const Main: FC = ({ children }: { children: ReactNode }) => {
   }
 
   return (
-    <main className="xl:mx-2">
+    <main className="">
       <Head />
       <Header />
       {children}

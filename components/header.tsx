@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 const Header: FC = () => {
   return (
-    <header className="header">
+    <header className="header px-2 py-1">
       <nav className="menu">
         <a className="menu--brand" href="/">
           Nicole

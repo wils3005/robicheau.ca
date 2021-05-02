@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 const Footer: FC = () => {
   return (
-    <footer className="footer">
+    <footer className="footer px-2 py-1">
       <span className="icon-link">
         <svg
           stroke="currentColor"

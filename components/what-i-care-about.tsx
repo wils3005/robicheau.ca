@@ -58,7 +58,7 @@ const WhatICareAbout: FC = () => {
           <img
             alt="Nicole in a park in Davenport sitting down speaking to a pregnant woman with her partner and dog"
             className="image--source"
-            src="nicole-robicheau-conversation-1417-992.jpg"
+            src="nicole-robicheau-conversation-1417x992.jpg"
           />
         </div>
 
