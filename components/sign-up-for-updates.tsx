@@ -95,6 +95,7 @@ const SignUpForUpdates: FC = () => {
             Follow me on Twitter
           </a>
           <svg
+            className="inline"
             stroke="currentColor"
             fill="currentColor"
             strokeWidth="0"
