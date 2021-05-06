@@ -798,11 +798,6 @@ html:not(.is-mobile) a:hover {
   color: white;
 }
 
-.footer {
-  background-color: #373636;
-  color: white;
-}
-
 .icon-link svg {
   vertical-align: middle;
   margin: 0 0.25em;
@@ -1164,11 +1159,6 @@ html:not(.is-mobile) .menu--brand:hover {
   .section-contact .form input {
     margin-bottom: 1em;
   }
-}
-
-.footer {
-  padding: 30px;
-  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

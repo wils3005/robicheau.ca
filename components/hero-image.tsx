@@ -15,7 +15,10 @@ const HeroImage: FC = () => {
           ROBICHEAU
         </div>
 
-        <div className="hero--location">Davenport</div>
+        <div className="hero--location">
+          <p className="">Davenport</p>
+          <p className="font-black">Let&apos;s lead with humanity</p>
+        </div>
       </div>
     </section>
   );

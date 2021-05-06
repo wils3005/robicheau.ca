@@ -22,8 +22,8 @@ const WhatICareAbout: FC = () => {
         <p>
           If there is one thing the COVID-19 pandemic has exposed even further,
           it’s the homelessness crisis we’re facing in Toronto. We need to put
-          into action plans that have been in works for years and promised by
-          governments but not implemented. Governments are putting money into
+          into action plans that have been in the works for years and promised
+          by governments but not implemented. Governments are putting money into
           temporary housing, but what we really need is for that money to be
           invested into long-term, sustainable, affordable, and supportive
           housing solutions. We also need to take a step back and work with
