@@ -3,7 +3,7 @@ import React, { FC } from "react";
 const WhyImRunning: FC = () => {
   return (
     <section className="section section-meet bg-pink-400" id="why-im-running">
-      <div className="bg-white mx-auto px-2 py-1 w-11/12">
+      <div className="bg-white mx-auto px-2 py-1 w-10/12">
         <h1 className="section--title">Why I&apos;m Running</h1>
 
         <p>

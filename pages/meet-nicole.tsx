@@ -15,47 +15,54 @@ const MeetNicole: FC = () => {
           <div className="section--columns">
             <div className="section--columns-left">
               <p>
-                Nicole Robicheau is a humanitarian worker with a background in
+                Hi, I’m Nicole, a humanitarian worker with a background in
                 journalism and human rights activism.
               </p>
 
               <p>
-                She was born in Vancouver, grew up in a small community in Nova
-                Scotia and now calls the Davenport riding in Toronto home. As a
-                queer, French-speaking Canadian settler raised by a single
-                mother, these intersections inform the work Nicole does and the
-                way she engages with the world.
+                I was born in Vancouver, grew up in a small community in Nova
+                Scotia, and now call the Davenport riding in Toronto home. I’m a
+                queer, non-binary, French-speaking settler raised by a single
+                mother, and these intersections inform the work I do, and the
+                way I engage with the world.
               </p>
 
               <p>
-                Nicole has worked in coffee shops, movie theatres, arcades and
-                in retail mall stores. She knows first-hand what it’s like to
-                work minimum wage jobs in expensive cities and thinks all
-                Canadians deserve to be paid a living wage. After many years
-                working these jobs, Nicole went back to school to study
-                journalism with a goal to shed light on underreported crises and
-                human rights abuses.
+                I’ve worked in coffee shops, movie theatres, arcades and in
+                retail mall stores. I know first-hand what it’s like to work
+                minimum wage jobs in expensive cities and think all Canadians
+                deserve to be paid a living wage. After many years working these
+                jobs, I went back to school to study journalism with a goal to
+                shed light on underreported crises and human rights abuses.
               </p>
 
               <p>
-                She spent time working with journalists in Zambia and Sierra
+                I spent time working with journalists in Zambia and Sierra
                 Leone, supporting them to report more effectively on human
-                rights abuses. She spent time volunteering at an independent
+                rights abuses. I spent time volunteering at an independent
                 newspaper in Moldova championing human rights as well as some
-                time in Geneva volunteering for an organization that had her
+                time in Geneva volunteering for an organization that had me
                 going to the UN Human Rights Council daily.
               </p>
 
               <p>
-                For the past decade, Nicole has been engaged in humanitarian
-                work, overseas and also in Canada, responding to countless
-                natural disasters, mass migrations, protracted crises and
-                epidemics, such as cholera and Ebola.
+                For the past decade, I have been engaged in humanitarian work,
+                overseas and also in Canada, responding to countless natural
+                disasters, mass migrations, protracted crises and epidemics. My
+                first humanitarian mission was to Haiti after the 2010
+                earthquake, and I returned several years later to respond to
+                Hurricane Mathew. I have also supported responses to cholera in
+                Sierra Leone, and to the 2014 West Africa Ebola outbreak. I was
+                in Nepal after the earthquake in 2015, in the Philippines after
+                Typhoon Haiyan, and in Bosnia recently for a mass migration
+                response. In Canada, I supported a BC wildfire operation, as
+                well as the Alberta floods response in 2012.
               </p>
 
               <p>
-                She firmly believes in an equitable and just recovery from
-                COVID-19, which has so clearly exposed the gaps in Canada’s
+                Most recently, I have been supporting COVID-19 responses abroad
+                remotely. I firmly believe in an equitable and just recovery
+                from COVID-19, which has so clearly exposed the gaps in Canada’s
                 healthcare system and has affected folks already most
                 marginalized.
               </p>

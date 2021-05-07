@@ -1034,19 +1034,15 @@ html:not(.is-mobile) .menu--brand:hover {
 
 @media screen and (min-width: 781px) {
   .section-care .image {
-    float: right;
     margin: 0 0 2em 2em;
-    width: 50%;
   }
   .section-care .image--source {
-    width: calc(100% + 2.5rem);
     max-width: none;
   }
 }
 
 @media screen and (max-width: 780px) {
   .section-care .image {
-    width: calc(100% + 5rem);
     margin-left: -2.5rem;
     max-width: none;
     margin-top: 2em;

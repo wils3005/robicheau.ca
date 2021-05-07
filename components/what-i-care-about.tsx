@@ -6,6 +6,12 @@ const WhatICareAbout: FC = () => {
       <h1 className="section--title">What I Care About</h1>
 
       <div className="section--content">
+        <img
+          alt="TODO"
+          className="image--source float-left m-2 w-1/4"
+          src="nicole-robicheau-field2-5184x3456.jpg"
+        />
+
         <h2>Climate Action</h2>
         <p>
           I have seen first-hand the devastating impacts of natural disasters,
@@ -54,13 +60,11 @@ const WhatICareAbout: FC = () => {
           and medications they need, at no cost.
         </p>
 
-        <div className="image is-landscape image--wrap">
-          <img
-            alt="Nicole in a park in Davenport sitting down speaking to a pregnant woman with her partner and dog"
-            className="image--source"
-            src="nicole-robicheau-conversation-1417x992.jpg"
-          />
-        </div>
+        <img
+          alt="Nicole in a park in Davenport sitting down speaking to a pregnant woman with her partner and dog"
+          className="image--source float-right mx-2 my-1 w-1/2"
+          src="nicole-robicheau-conversation-1417x992.jpg"
+        />
 
         <h2>Welcoming Refugees</h2>
         <p>
