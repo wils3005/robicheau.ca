@@ -43,81 +43,92 @@ const Volunteer: FC = () => {
 
   return (
     <Main>
-      <section className="section is-accent">
+      <section className="section">
         <h1 className="section--title">Volunteer</h1>
 
         <div className="section--content text-center">
-          <form className="form" onSubmit={onSubmit}>
-            <div className="form--columns">
-              <input
-                id="first-name"
-                placeholder="First Name"
-                ref={firstName}
-                required
-                type="text"
-              />
+          <p>
+            Thank you for your interest in volunteering to help me win the
+            nomination to be the next federal NDP candidate in Davenport. Please
+            complete this form and I’ll be in touch soon.
+          </p>
 
-              <input
-                id="last-name"
-                placeholder="Last Name"
-                ref={lastName}
-                required
-                type="text"
-              />
+          <h2 className="text-pink-500">Let&apos;s lead with humanity.</h2>
 
-              <input
-                id="pronouns"
-                placeholder="Pronouns"
-                ref={pronouns}
-                required
-                type="text"
-              />
+          <div className="text-left">
+            <p className="text-xs">*mandatory</p>
+            <form className="form text-center" onSubmit={onSubmit}>
+              <div className="form--columns">
+                <input
+                  id="first-name"
+                  placeholder="First Name"
+                  ref={firstName}
+                  required
+                  type="text"
+                />
 
-              <input
-                id="email"
-                placeholder="Email"
-                ref={email}
-                required
-                type="email"
-              />
+                <input
+                  id="last-name"
+                  placeholder="Last Name"
+                  ref={lastName}
+                  required
+                  type="text"
+                />
 
-              <input
-                id="postal-code"
-                placeholder="Postal Code"
-                ref={postalCode}
-                required
-                type="text"
-              />
+                <input
+                  id="pronouns"
+                  placeholder="Pronouns"
+                  ref={pronouns}
+                  required
+                  type="text"
+                />
 
-              <input
-                id="phone-number"
-                placeholder="Phone Number"
-                ref={phoneNumber}
-                required
-                type="text"
-              />
+                <input
+                  id="email"
+                  placeholder="Email"
+                  ref={email}
+                  required
+                  type="email"
+                />
 
-              <input
-                id="availability"
-                placeholder="Availability"
-                ref={availability}
-                required
-                type="text"
-              />
+                <input
+                  id="postal-code"
+                  placeholder="Postal Code"
+                  ref={postalCode}
+                  required
+                  type="text"
+                />
 
-              <input
-                id="additional-information"
-                placeholder="Additional Information"
-                ref={info}
-                required
-                type="text"
-              />
+                <input
+                  id="phone-number"
+                  placeholder="Phone Number"
+                  ref={phoneNumber}
+                  required
+                  type="text"
+                />
 
-              <button type="submit">Submit</button>
-            </div>
+                <input
+                  id="availability"
+                  placeholder="Availability"
+                  ref={availability}
+                  required
+                  type="text"
+                />
 
-            {message}
-          </form>
+                <input
+                  id="additional-information"
+                  placeholder="Additional Information"
+                  ref={info}
+                  required
+                  type="text"
+                />
+
+                <button type="submit">Submit</button>
+              </div>
+
+              {message}
+            </form>
+          </div>
         </div>
       </section>
     </Main>
