@@ -33,6 +33,8 @@ const Endorsements: FC = () => {
               endorsement is written in my personal capacity.
             </blockquote>
 
+            <br />
+
             <blockquote>
               I’ve known Nicole for about 5 years, we both work in emergency
               humanitarian response, supporting people in disasters, conflict
@@ -40,6 +42,8 @@ const Endorsements: FC = () => {
               strong commitment to ensuring Canada does more to provide refuge
               to people fleeing violence.
             </blockquote>
+
+            <br />
 
             <blockquote>
               I never thought I’d see the day that Canada experienced a
@@ -52,6 +56,8 @@ const Endorsements: FC = () => {
               oppression, inequality and to be a sensible voice in a chaotic
               world, and an advocate for peace.
             </blockquote>
+
+            <br />
 
             <blockquote>
               I proudly endorse Nicole Robicheau as the NDP candidate for
@@ -110,7 +116,7 @@ const Endorsements: FC = () => {
             </div>
 
             <blockquote>
-              We were very pleased and excited to hear that Nicole has decided
+              “We were very pleased and excited to hear that Nicole has decided
               to run as a candidate for the NDP in the riding of Davenport.
               Nicole has been serving as our chairperson for our Outreach
               Sub-Committee, which has been highly successful in bringing
@@ -118,7 +124,7 @@ const Endorsements: FC = () => {
               public. We are very proud of the work she has accomplished. This
               same passion and commitment will be brought to the table as an MP
               in Ottawa. We enthusiastically endorse Nicole Robicheau as
-              candidate for the NDP in Davenport Riding.
+              candidate for the NDP in Davenport Riding.”
             </blockquote>
           </div>
         </div>
