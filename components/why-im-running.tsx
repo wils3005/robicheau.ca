@@ -3,27 +3,26 @@ import React, { FC } from "react";
 const WhyImRunning: FC = () => {
   return (
     <section className="section section-meet bg-primary" id="why-im-running">
-      <div className="bg-white mx-auto px-2 py-1 w-10/12">
+      <div className="bg-white mx-auto px-2 py-1 w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12">
         <h1 className="section--title">Why I&apos;m Running</h1>
-
         <p>
           How long can we keep putting out fires when we need to address the
           causes of the climate crisis?
         </p>
-
+        <br />
         <p>
           How long can we keep housing folks in temporary shelters when secure,
           affordable and safe housing should be a human right in this community
           and in every community?
         </p>
-
+        <br />
         <p>
           As a humanitarian worker, I’ve seen the massive gap between the people
           who have too much and the people who don’t have enough. I’ve seen how
           growing inequality makes life so much harder for people. I’ve also
           seen that band aid solutions just can’t get us through.
         </p>
-
+        <br />
         <p>
           My experiences have shown me that human well-being is fragile, and
           that’s inspired me to seek better solutions to the challenges we face
@@ -33,6 +32,7 @@ const WhyImRunning: FC = () => {
           change - now and for the future.
         </p>
 
+        <br />
         <p>
           I am actively engaged with different levels of grassroots community
           activism. I rallied a group of neighbours garnering support for the
@@ -43,7 +43,7 @@ const WhyImRunning: FC = () => {
           you for the changes we need in our community, and the influence I can
           bring to Parliament Hill as your representative.
         </p>
-
+        <br />
         <p>
           Let’s imagine a Davenport where everyone has access to the
           prescriptions and paid sick time they need, and where our loved ones
@@ -51,14 +51,14 @@ const WhyImRunning: FC = () => {
           imagining and work together NOW for big and bold changes - where no
           one is left behind.
         </p>
-
+        <br />
         <p>
           I believe our Davenport community can be a model for Canada and the
           world in demonstrating that fair and equitable humanitarian policies
           can positively affect outcomes for everyone, and that changes we make
           to protect our most vulnerable will make life better for us all.
         </p>
-
+        <br />
         <p>
           To me, being a humanitarian means protecting human dignity, which
           requires actively engaging in social reforms, working to save lives

@@ -9,17 +9,17 @@ const HeroImage: FC = () => {
         src="nicole-robicheau-outdoor-headshot-2800x1869.jpg"
       />
       <div className="hero--title flex flex-col items-end text-right w-1/3">
-        <p className="bg-primary font-black my-1 p-1 sm:text-2xl md:text-4xl lg:text-5xl text-left text-white w-full">
+        <p className="bg-primary font-black my-1 p-1 md:p-2 lg:p-3 xl:p-4 text-lg md:text-4xl lg:text-5xl text-left text-white w-full">
           Nicole
           <br />
           ROBICHEAU
         </p>
 
-        <div className="bg-primary my-1 p-1 pull-right text-left text-white w-11/12">
-          <p className="font-bold p-1 sm:text-lg md:text-xl lg:text-2xl">
+        <div className="bg-primary my-1 p-1 md:p-2 lg:p-3 xl:p-4 pull-right text-left text-white w-11/12">
+          <p className="font-bold p-1 text-md md:text-lg lg:text-xl">
             Davenport
           </p>
-          <p className="font-extrabold p-1 sm:text-xl md:text-2xl lg:text-3xl">
+          <p className="font-extrabold p-1 text-lg md:text-xl lg:text-2xl">
             Let&apos;s lead with humanity
           </p>
         </div>
