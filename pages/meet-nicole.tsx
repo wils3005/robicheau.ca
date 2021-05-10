@@ -10,16 +10,16 @@ const MeetNicole: FC = () => {
           alt="Nicole in Nepal crouched down taking notes while talking to a man and his son who were impacted by a typhoon"
           src="nicole-robicheau-field-5184x3456.jpg"
         />
-        <h1 className="section--title">Meet Nicole</h1>
+        <h1 className="section--title text-3xl">Meet Nicole</h1>
         <div className="section--content offset-bottom-zero">
           <div className="section--columns">
             <div className="section--columns-left">
-              <p>
+              <p className="m-1 md:m-2 lg:m-3 xl:m-4">
                 Hi, I’m Nicole, a humanitarian worker with a background in
                 journalism and human rights activism.
               </p>
 
-              <p>
+              <p className="m-1 md:m-2 lg:m-3 xl:m-4">
                 I was born in Vancouver, grew up in a small community in Nova
                 Scotia, and now call the Davenport riding in Toronto home. I’m a
                 queer, non-binary, French-speaking settler raised by a single
@@ -27,7 +27,7 @@ const MeetNicole: FC = () => {
                 way I engage with the world.
               </p>
 
-              <p>
+              <p className="m-1 md:m-2 lg:m-3 xl:m-4">
                 I’ve worked in coffee shops, movie theatres, arcades and in
                 retail mall stores. I know first-hand what it’s like to work
                 minimum wage jobs in expensive cities and think all Canadians
@@ -36,7 +36,7 @@ const MeetNicole: FC = () => {
                 shed light on underreported crises and human rights abuses.
               </p>
 
-              <p>
+              <p className="m-1 md:m-2 lg:m-3 xl:m-4">
                 I spent time working with journalists in Zambia and Sierra
                 Leone, supporting them to report more effectively on human
                 rights abuses. I spent time volunteering at an independent
@@ -45,7 +45,7 @@ const MeetNicole: FC = () => {
                 going to the UN Human Rights Council daily.
               </p>
 
-              <p>
+              <p className="m-1 md:m-2 lg:m-3 xl:m-4">
                 For the past decade, I have been engaged in humanitarian work,
                 overseas and also in Canada, responding to countless natural
                 disasters, mass migrations, protracted crises and epidemics. My
@@ -59,7 +59,7 @@ const MeetNicole: FC = () => {
                 well as the Alberta floods response in 2012.
               </p>
 
-              <p>
+              <p className="m-1 md:m-2 lg:m-3 xl:m-4">
                 Most recently, I have been supporting COVID-19 responses abroad
                 remotely. I firmly believe in an equitable and just recovery
                 from COVID-19, which has so clearly exposed the gaps in Canada’s

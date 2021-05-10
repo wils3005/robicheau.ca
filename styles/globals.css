@@ -419,6 +419,7 @@ html {
   --screen-height: 100vh;
 }
 
+/* tags ***********************************************************************/
 body {
   margin: 0px;
   padding: 0px;
@@ -436,21 +437,7 @@ body {
   box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0.25em;
-  margin-right: 0px;
-  margin-bottom: 0.25em;
-  margin-left: 0px;
-  padding: 0px;
-  color: inherit;
-}
-
-h1 {
+/* h1 {
   font-size: 2.2222222222rem;
 }
 
@@ -472,14 +459,6 @@ h5 {
 
 h6 {
   font-size: 0.6666666667rem;
-}
-
-/* p {
-  margin-top: 1.2rem;
-  margin-right: 0px;
-  margin-bottom: 1.2rem;
-  margin-left: 0px;
-  padding: 0px;
 } */
 
 small {

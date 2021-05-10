@@ -90,7 +90,7 @@ const SignUpForUpdates: FC = () => {
       </form>
 
       <div className="text-center">
-        <h2>Connect with Nicole</h2>
+        <h2 className="text-2xl">Connect with Nicole</h2>
         <span className="icon-link">
           <a
             href="https://twitter.com/nicolerobicheau"

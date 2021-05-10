@@ -44,7 +44,7 @@ const Volunteer: FC = () => {
   return (
     <Main>
       <section className="section flex flex-col items-center mx-auto md:w-11/12 lg:w-10/12 xl:w-9/12">
-        <h1 className="section--title">Volunteer</h1>
+        <h1 className="section--title text-3xl">Volunteer</h1>
 
         <p className="m-1 md:w-10/12 lg:w-9/12 xl:w-8/12">
           Thank you for your interest in volunteering to help me win the

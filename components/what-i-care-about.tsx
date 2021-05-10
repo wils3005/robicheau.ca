@@ -3,7 +3,7 @@ import React, { FC } from "react";
 const WhatICareAbout: FC = () => {
   return (
     <section className="section section-care" id="what-i-care-about">
-      <h1 className="section--title">What I Care About</h1>
+      <h1 className="section--title text-3xl">What I Care About</h1>
 
       <div className="section--content">
         <img
@@ -12,7 +12,7 @@ const WhatICareAbout: FC = () => {
           src="nicole-robicheau-field2-5184x3456.jpg"
         />
 
-        <h2>Climate Action</h2>
+        <h2 className="text-2xl">Climate Action</h2>
         <p>
           I have seen first-hand the devastating impacts of natural disasters,
           increasing year after year, while responding to earthquakes,
@@ -24,7 +24,7 @@ const WhatICareAbout: FC = () => {
           actions on reducing emissions and investing in renewable energy.
         </p>
 
-        <h2>Affordable Housing</h2>
+        <h2 className="text-2xl">Affordable Housing</h2>
         <p>
           If there is one thing the COVID-19 pandemic has exposed even further,
           it’s the homelessness crisis we’re facing in Toronto. We need to put
@@ -45,7 +45,7 @@ const WhatICareAbout: FC = () => {
           raise rents.
         </p>
 
-        <h2>Equitable Access to Healthcare</h2>
+        <h2 className="text-2xl">Equitable Access to Healthcare</h2>
         <p>
           I’ve worked in field hospitals sent to support folks affected by
           disasters in last mile contexts, where I’ve seen inequitable access to
@@ -66,7 +66,7 @@ const WhatICareAbout: FC = () => {
           src="nicole-robicheau-conversation-1417x992.jpg"
         />
 
-        <h2>Welcoming Refugees</h2>
+        <h2 className="text-2xl">Welcoming Refugees</h2>
         <p>
           I have worked in refugee camps and spoken to folks who’ve travelled
           for years, sometimes with young children, escaping horrific situations
@@ -77,7 +77,7 @@ const WhatICareAbout: FC = () => {
           access to all the services they need.
         </p>
 
-        <h2>Indigenous Rights</h2>
+        <h2 className="text-2xl">Indigenous Rights</h2>
         <p>
           I grew up in Saint Mary’s Bay, in Nova Scotia, where recently
           Mi&apos;kmaw fishers have been exercising their right to fish for a
@@ -86,7 +86,7 @@ const WhatICareAbout: FC = () => {
           to land and resources.
         </p>
 
-        <h2>2SLGBTQIA+ Rights</h2>
+        <h2 className="text-2xl">2SLGBTQIA+ Rights</h2>
         <p>
           As queer and non-binary, I work to support 2SLGBTQIA+ rights in my
           community and as part of the Ontario NDP LGBTQ Committee. We need to
