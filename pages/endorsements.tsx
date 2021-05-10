@@ -8,14 +8,14 @@ const Endorsements: FC = () => {
       <section className="section">
         <h1 className="section--title">Endorsements</h1>
 
-        <div className="flex my-4">
+        <div className="flex flex-col lg:flex-row my-4">
           <img
             alt="todo"
-            className="mr-1 object-cover w-1/3"
+            className="object-cover w-full lg:w-1/3"
             src="chris-houston-and-jagmeet-singh-960x960.jpg"
           />
 
-          <div className="flex flex-col w-2/3">
+          <div className="flex flex-col w-full lg:w-2/3">
             <div className="bg-primary">
               <h2 className="text-white">
                 Chris Houston, logistician, humanitarian, activist, and
@@ -60,14 +60,14 @@ const Endorsements: FC = () => {
           </div>
         </div>
 
-        <div className="flex my-4">
+        <div className="flex flex-col lg:flex-row my-4">
           <img
             alt="todo"
-            className="mr-1 object-cover w-1/3"
-            src="ann-kim-720×868.jpg"
+            className="object-cover w-full lg:w-1/3"
+            src="ann-kim-720x868.jpg"
           />
 
-          <div className="flex flex-col w-2/3">
+          <div className="flex flex-col w-full lg:w-2/3">
             <div className="bg-primary">
               <h2 className="px-2 py-1 text-white">
                 Ann Kim, parent and local restaurant owner
@@ -86,11 +86,11 @@ const Endorsements: FC = () => {
           </div>
         </div>
 
-        <div className="flex my-4">
-          <div className="flex mr-1 w-1/3">
+        <div className="flex flex-col lg:flex-row my-4">
+          <div className="flex w-full lg:w-1/3">
             <img
               alt="todo"
-              className="mr-1 object-cover w-1/2"
+              className="object-cover w-1/2"
               src="robert-hampsey-960×957.jpg"
             />
 
@@ -101,7 +101,7 @@ const Endorsements: FC = () => {
             />
           </div>
 
-          <div className="flex flex-col w-2/3">
+          <div className="flex flex-col w-full lg:w-2/3">
             <div className="bg-primary">
               <h2 className="text-white">
                 Robert Hampsey and Stefanie Pest, co-chairs of the Ontario NDP
@@ -123,14 +123,14 @@ const Endorsements: FC = () => {
           </div>
         </div>
 
-        <div className="flex my-4">
+        <div className="flex flex-col lg:flex-row my-4">
           <img
             alt="todo"
-            className="mr-1 object-contain w-4/12"
+            className="object-cover w-full lg:w-1/3"
             src="erika-wybourn-400x400.jpg"
           />
 
-          <div className="flex flex-col w-8/12">
+          <div className="flex flex-col w-full lg:w-2/3">
             <div className="bg-primary">
               <h2 className="px-2 py-1 text-white">
                 Erika Wybourn, decades-long resident of Davenport
