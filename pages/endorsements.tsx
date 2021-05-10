@@ -1,14 +1,17 @@
-import React, { FC } from "react";
+import React, { FC, ReactNode } from "react";
 
 import Main from "../components/main";
+
+const Endorsement: FC = ({ children }: { children: ReactNode }) => {
+  return <div className="flex flex-col lg:flex-row my-4">{children}</div>;
+};
 
 const Endorsements: FC = () => {
   return (
     <Main>
       <section className="section">
         <h1 className="section--title">Endorsements</h1>
-
-        <div className="flex flex-col lg:flex-row my-4">
+        <Endorsement>
           <img
             alt="todo"
             className="object-cover w-full lg:w-1/3"
@@ -64,9 +67,9 @@ const Endorsements: FC = () => {
               Davenport.”
             </blockquote>
           </div>
-        </div>
-
-        <div className="flex flex-col lg:flex-row my-4">
+        </Endorsement>
+        <hr />
+        <Endorsement>
           <img
             alt="todo"
             className="object-cover w-full lg:w-1/3"
@@ -90,9 +93,9 @@ const Endorsements: FC = () => {
               up for her community.”
             </blockquote>
           </div>
-        </div>
-
-        <div className="flex flex-col lg:flex-row my-4">
+        </Endorsement>
+        <hr />
+        <Endorsement>
           <div className="flex w-full lg:w-1/3">
             <img
               alt="todo"
@@ -127,9 +130,9 @@ const Endorsements: FC = () => {
               candidate for the NDP in Davenport Riding.”
             </blockquote>
           </div>
-        </div>
-
-        <div className="flex flex-col lg:flex-row my-4">
+        </Endorsement>
+        <hr />
+        <Endorsement>
           <img
             alt="todo"
             className="object-cover w-full lg:w-1/3"
@@ -148,7 +151,7 @@ const Endorsements: FC = () => {
               cares and will do the work.”
             </blockquote>
           </div>
-        </div>
+        </Endorsement>
       </section>
     </Main>
   );
