@@ -51,7 +51,7 @@ const MeetNicole: FC = () => {
                 disasters, mass migrations, protracted crises and epidemics. My
                 first humanitarian mission was to Haiti after the 2010
                 earthquake, and I returned several years later to respond to
-                Hurricane Mathew. I have also supported responses to cholera in
+                Hurricane Matthew. I have also supported responses to cholera in
                 Sierra Leone, and to the 2014 West Africa Ebola outbreak. I was
                 in Nepal after the earthquake in 2015, in the Philippines after
                 Typhoon Haiyan, and in Bosnia recently for a mass migration

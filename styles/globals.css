@@ -474,13 +474,13 @@ h6 {
   font-size: 0.6666666667rem;
 }
 
-p {
+/* p {
   margin-top: 1.2rem;
   margin-right: 0px;
   margin-bottom: 1.2rem;
   margin-left: 0px;
   padding: 0px;
-}
+} */
 
 small {
   font-size: 0.8em;
@@ -627,7 +627,6 @@ textarea {
   display: inline-block;
   padding: 0.5em;
   border-radius: 0;
-  width: 100%;
   -webkit-appearance: none;
 }
 
@@ -890,7 +889,6 @@ html:not(.is-mobile) .menu--brand:hover {
   right: 0px;
   bottom: auto;
   left: auto;
-  text-align: right;
 }
 .hero--name,
 .hero--location {
@@ -1083,11 +1081,11 @@ html:not(.is-mobile) .menu--brand:hover {
   .section-signup .form {
     margin-bottom: 2em;
   }
-  .section-signup .form input,
+  /* .section-signup .form input,
   .section-signup .form button {
     margin-bottom: 1em;
     width: 100%;
-  }
+  } */
 }
 
 .section-contact .form {

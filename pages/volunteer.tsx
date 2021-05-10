@@ -43,79 +43,98 @@ const Volunteer: FC = () => {
 
   return (
     <Main>
-      <section className="section is-accent">
+      <section className="section flex flex-col items-center mx-auto md:w-11/12 lg:w-10/12 xl:w-9/12">
         <h1 className="section--title">Volunteer</h1>
 
-        <div className="section--content text-center">
-          <form className="form" onSubmit={onSubmit}>
-            <div className="form--columns">
+        <p className="m-1 md:w-10/12 lg:w-9/12 xl:w-8/12">
+          Thank you for your interest in volunteering to help me win the
+          nomination to be the next federal NDP candidate in Davenport. Please
+          complete this form and I’ll be in touch soon.
+        </p>
+
+        <p className="font-medium text-primary sm:text-lg md:text-xl lg:text-2xl">
+          Let&apos;s lead with humanity.
+        </p>
+
+        <div className="section--content w-full">
+          <p className="text-xs">*required</p>
+
+          <form className="form text-center" onSubmit={onSubmit}>
+            <div className="flex flex-col">
               <input
+                className="bg-primary my-1 placeholder-white text-white"
                 id="first-name"
-                placeholder="First Name"
+                placeholder="*FIRST NAME"
                 ref={firstName}
                 required
                 type="text"
               />
 
               <input
+                className="bg-primary my-1 placeholder-white text-white"
                 id="last-name"
-                placeholder="Last Name"
+                placeholder="*LAST NAME"
                 ref={lastName}
                 required
                 type="text"
               />
 
               <input
+                className="bg-primary my-1 placeholder-white text-white"
                 id="pronouns"
-                placeholder="Pronouns"
+                placeholder="*PRONOUNS"
                 ref={pronouns}
                 required
                 type="text"
               />
 
               <input
+                className="bg-primary my-1 placeholder-white text-white"
                 id="email"
-                placeholder="Email"
+                placeholder="*EMAIL"
                 ref={email}
                 required
                 type="email"
               />
 
               <input
+                className="bg-primary my-1 placeholder-white text-white"
                 id="postal-code"
-                placeholder="Postal Code"
+                placeholder="*POSTAL CODE"
                 ref={postalCode}
                 required
                 type="text"
               />
 
               <input
+                className="bg-primary my-1 placeholder-white text-white"
                 id="phone-number"
-                placeholder="Phone Number"
+                placeholder="*PHONE NUMBER"
                 ref={phoneNumber}
                 required
                 type="text"
               />
 
               <input
+                className="bg-primary my-1 placeholder-white text-white"
                 id="availability"
-                placeholder="Availability"
+                placeholder="AVAILABILITY"
                 ref={availability}
                 required
                 type="text"
               />
 
               <input
+                className="bg-primary my-1 placeholder-white text-white"
                 id="additional-information"
-                placeholder="Additional Information"
+                placeholder="ADDITIONAL INFORMATION"
                 ref={info}
                 required
                 type="text"
               />
-
-              <button type="submit">Submit</button>
             </div>
 
+            <button type="submit">Submit</button>
             {message}
           </form>
         </div>
