@@ -7,22 +7,23 @@ const Endorsements: FC = () => {
     <Main>
       <section className="section">
         <h1 className="section--title">Endorsements</h1>
-        <div className="flex">
+
+        <div className="flex my-4">
           <img
             alt="todo"
-            className="object-cover px-2 py-1 w-1/3"
+            className="mr-1 object-cover w-1/3"
             src="chris-houston-and-jagmeet-singh-960x960.jpg"
           />
 
-          <div className="flex flex-col px-2 py-1">
-            <div className="bg-pink-400 px-2 py-1">
-              <h2 className="px-2 py-1 text-white">
+          <div className="flex flex-col w-2/3">
+            <div className="bg-primary">
+              <h2 className="text-white">
                 Chris Houston, logistician, humanitarian, activist, and
                 Davenport resident
               </h2>
             </div>
 
-            <blockquote className="px-2 py-1">
+            <blockquote>
               “I have lived in Davenport for over 5 years and been an NDP member
               since the proud day I became a citizen in 2019, about 2 and a half
               years ago. My background is in both local and international
@@ -32,7 +33,7 @@ const Endorsements: FC = () => {
               endorsement is written in my personal capacity.
             </blockquote>
 
-            <blockquote className="px-2 py-1">
+            <blockquote>
               I’ve known Nicole for about 5 years, we both work in emergency
               humanitarian response, supporting people in disasters, conflict
               and disease outbreaks. I know and appreciate that Nicole has a
@@ -40,7 +41,7 @@ const Endorsements: FC = () => {
               to people fleeing violence.
             </blockquote>
 
-            <blockquote className="px-2 py-1">
+            <blockquote>
               I never thought I’d see the day that Canada experienced a
               humanitarian crisis, but here we are, and I know very well how a
               humanitarian background is relevant to the reality we are living
@@ -52,35 +53,63 @@ const Endorsements: FC = () => {
               world, and an advocate for peace.
             </blockquote>
 
-            <blockquote className="px-2 py-1">
+            <blockquote>
               I proudly endorse Nicole Robicheau as the NDP candidate for
               Davenport.”
             </blockquote>
           </div>
         </div>
 
-        <div className="flex">
+        <div className="flex my-4">
           <img
             alt="todo"
-            className="object-cover px-2 py-1 w-1/6"
-            src="robert-hampsey-960×957.jpg"
+            className="mr-1 object-cover w-1/3"
+            src="ann-kim-720×868.jpg"
           />
 
-          <img
-            alt="todo"
-            className="object-cover px-2 py-1 w-1/6"
-            src="stefanie-pest-2209x2756.jpg"
-          />
+          <div className="flex flex-col w-2/3">
+            <div className="bg-primary">
+              <h2 className="px-2 py-1 text-white">
+                Ann Kim, parent and local restaurant owner
+              </h2>
+            </div>
 
-          <div className="flex flex-col px-2 py-1">
-            <div className="bg-pink-400 px-2 py-1">
-              <h2 className="text-white px-2 py-1">
+            <blockquote>
+              “I am happy to hear that Nicole is running for the NDP nomination
+              in my riding. I have lived in the Davenport riding for over 5
+              years - our family runs a small business here and our kids go to
+              school in the riding as well. Nicole will put in the work to
+              support families like ours who make our living in industries that
+              have been devastated by the pandemic. She is committed to showing
+              up for her community.”
+            </blockquote>
+          </div>
+        </div>
+
+        <div className="flex my-4">
+          <div className="flex mr-1 w-1/3">
+            <img
+              alt="todo"
+              className="mr-1 object-cover w-1/2"
+              src="robert-hampsey-960×957.jpg"
+            />
+
+            <img
+              alt="todo"
+              className="object-cover w-1/2"
+              src="stefanie-pest-2209x2756.jpg"
+            />
+          </div>
+
+          <div className="flex flex-col w-2/3">
+            <div className="bg-primary">
+              <h2 className="text-white">
                 Robert Hampsey and Stefanie Pest, co-chairs of the Ontario NDP
                 LGBTQ Committee
               </h2>
             </div>
 
-            <blockquote className="px-2 py-1">
+            <blockquote>
               We were very pleased and excited to hear that Nicole has decided
               to run as a candidate for the NDP in the riding of Davenport.
               Nicole has been serving as our chairperson for our Outreach
@@ -94,21 +123,21 @@ const Endorsements: FC = () => {
           </div>
         </div>
 
-        <div className="flex">
+        <div className="flex my-4">
           <img
             alt="todo"
-            className="object-contain px-2 py-1 w-1/3"
+            className="mr-1 object-contain w-4/12"
             src="erika-wybourn-400x400.jpg"
           />
 
-          <div className="flex flex-col px-2 py-1">
-            <div className="bg-pink-400 px-2 py-1">
+          <div className="flex flex-col w-8/12">
+            <div className="bg-primary">
               <h2 className="px-2 py-1 text-white">
                 Erika Wybourn, decades-long resident of Davenport
               </h2>
             </div>
 
-            <blockquote className="px-2 py-1">
+            <blockquote>
               “I’m glad Nicole is running: Davenport needs a representative who
               cares and will do the work.”
             </blockquote>

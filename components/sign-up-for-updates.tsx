@@ -43,47 +43,52 @@ const SignUpForUpdates: FC = () => {
       id="sign-up-for-updates"
     >
       <h1 className="section--title">Sign Up for Updates</h1>
-      <div className="section--content text-center">
-        <form className="form" onSubmit={onSubmit}>
-          <div className="form--columns">
-            <input
-              id="first-name"
-              placeholder="First Name"
-              ref={firstNameInputElement}
-              required
-              type="text"
-            />
+      <form
+        className="flex flex-col md:flex-row justify-around m-1"
+        onSubmit={onSubmit}
+      >
+        <input
+          className="m-1 md:w-1/6"
+          id="first-name"
+          placeholder="First Name"
+          ref={firstNameInputElement}
+          required
+          type="text"
+        />
 
-            <input
-              id="last-name"
-              placeholder="Last Name"
-              ref={lastNameInputElement}
-              required
-              type="text"
-            />
+        <input
+          className="m-1 md:w-1/6"
+          id="last-name"
+          placeholder="Last Name"
+          ref={lastNameInputElement}
+          required
+          type="text"
+        />
 
-            <input
-              id="email"
-              placeholder="Email"
-              ref={emailInputElement}
-              required
-              type="email"
-            />
+        <input
+          className="m-1 md:w-1/6"
+          id="email"
+          placeholder="Email"
+          ref={emailInputElement}
+          required
+          type="email"
+        />
 
-            <input
-              id="postal-code"
-              placeholder="Postal Code"
-              ref={postalCodeInputElement}
-              required
-              type="text"
-            />
+        <input
+          className="m-1 md:w-1/6"
+          id="postal-code"
+          placeholder="Postal Code"
+          ref={postalCodeInputElement}
+          required
+          type="text"
+        />
 
-            <button type="submit">Sign Up</button>
-          </div>
-          {message ??
-            `I'll only send emails when new content is posted. No spam.`}
-        </form>
-      </div>
+        <button className="m-1 md:w-1/6" type="submit">
+          Sign Up
+        </button>
+        {message ??
+          `I'll only send emails when new content is posted. No spam.`}
+      </form>
 
       <div className="text-center">
         <h2>Connect with Nicole</h2>

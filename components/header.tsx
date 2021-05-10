@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 const Header: FC = () => {
   return (
-    <header className="header px-2 py-1">
+    <header className="header px-2 py-1 ">
       <nav className="menu">
         <a className="menu--brand" href="/">
           Nicole
@@ -16,10 +16,16 @@ const Header: FC = () => {
           <a href="/endorsements">Endorsements</a>
           <a href="mailto:nicole@robicheau.ca">Contact</a>
           <a href="/#sign-up-for-updates">Subscribe</a>
+          <a href="/volunteer">Volunteer</a>
         </div>
 
-        <a className="menu--cta button is-orphan" href="/volunteer">
-          Volunteer
+        <a
+          className="menu--cta button is-orphan"
+          href="https://act.ndp.ca/donate/membership-en"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          Join the NDP
         </a>
       </nav>
     </header>
