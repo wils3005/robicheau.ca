@@ -93,7 +93,7 @@ const SignUpForUpdates: FC = () => {
         <h2>Connect with Nicole</h2>
         <span className="icon-link">
           <a
-            href="https://twitter.com/nicorobot"
+            href="https://twitter.com/nicolerobicheau"
             target="_blank"
             rel="noreferrer"
           >
@@ -131,7 +131,7 @@ const SignUpForUpdates: FC = () => {
           </a>
 
           <a
-            href="https://instagram.com/nicole4davenport"
+            href="https://instagram.com/nicolerobicheauto"
             target="_blank"
             rel="noreferrer"
           >
