@@ -1,10 +1,7 @@
-import React, { FC, ReactNode } from "react";
+import React, { FC } from "react";
 
 import Main from "../components/main";
-
-const Endorsement: FC = ({ children }: { children: ReactNode }) => {
-  return <div className="flex flex-col lg:flex-row my-4">{children}</div>;
-};
+import Endorsement from "../components/endorsement";
 
 const Endorsements: FC = () => {
   return (
