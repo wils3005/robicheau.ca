@@ -17,9 +17,9 @@ const HeroImage: FC = () => {
 
         <div className="bg-primary my-1 p-1 md:p-2 lg:p-3 xl:p-4 pull-right text-left text-white w-11/12">
           <p className="font-bold p-1 text-md md:text-lg lg:text-xl">
-            Davenport
+            DAVENPORT
           </p>
-          <p className="font-extrabold p-1 text-lg md:text-xl lg:text-2xl">
+          <p className="text-shadow font-extrabold p-1 text-lg md:text-xl lg:text-2xl">
             Let&apos;s lead with humanity
           </p>
         </div>

@@ -1,3 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
 @charset "UTF-8";
 /*
 Theme Name:     Project Name
@@ -7,10 +17,6 @@ Version:        1.0
 * {
   box-sizing: border-box;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 .clearfix:after {
   content: "";

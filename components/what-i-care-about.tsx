@@ -7,7 +7,7 @@ const WhatICareAbout: FC = () => {
 
       <div className="section--content">
         <img
-          alt="TODO"
+          alt="Nicole in discussion with a Philippines local after Typhoon Haiyan"
           className="image--source float-left m-2 w-1/4"
           src="nicole-robicheau-field2-5184x3456.jpg"
         />
