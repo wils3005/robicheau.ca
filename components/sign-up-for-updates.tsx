@@ -44,7 +44,7 @@ const SignUpForUpdates: FC = () => {
     >
       <h1 className="section--title">Sign Up for Updates</h1>
       <form
-        className="flex flex-col md:flex-row justify-around m-1"
+        className="flex flex-col md:flex-row justify-around m-1 text-black"
         onSubmit={onSubmit}
       >
         <input
