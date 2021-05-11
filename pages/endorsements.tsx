@@ -27,7 +27,7 @@ const Endorsements: FC = () => {
         <h1 className="section--title text-3xl">Endorsements</h1>
         <Endorsement>
           <img
-            alt="todo"
+            alt="Selfie of Chris Houston with Jagmeet Singh"
             className="object-cover w-full lg:w-1/3"
             src="chris-houston-and-jagmeet-singh-960x960.jpg"
           />
@@ -77,7 +77,7 @@ const Endorsements: FC = () => {
         <hr />
         <Endorsement>
           <img
-            alt="todo"
+            alt="Headshot of Ann Kim wearing a face mask"
             className="object-cover w-full lg:w-1/3"
             src="ann-kim-720x868.jpg"
           />
@@ -102,13 +102,13 @@ const Endorsements: FC = () => {
         <Endorsement>
           <div className="flex w-full lg:w-1/3">
             <img
-              alt="todo"
+              alt="Headshot of Robert Hampsey"
               className="object-cover w-1/2"
               src="robert-hampsey-960×957.jpg"
             />
 
             <img
-              alt="todo"
+              alt="Headshot of Stefanie Pest"
               className="object-cover w-1/2"
               src="stefanie-pest-2209x2756.jpg"
             />
@@ -138,7 +138,7 @@ const Endorsements: FC = () => {
         <hr />
         <Endorsement>
           <img
-            alt="todo"
+            alt="Headshot of Erika Wybourn"
             className="object-cover w-full lg:w-1/3"
             src="erika-wybourn-400x400.jpg"
           />
