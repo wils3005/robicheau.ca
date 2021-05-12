@@ -25,7 +25,7 @@ const Header: FC = () => {
           <a href="/meet-nicole">Meet Nicole</a>
           <a href="/#what-i-care-about">My Priorities</a>
           <a href="/endorsements">Endorsements</a>
-          <a href="mailto:nicole@robicheau.ca">Contact</a>
+          <a href="mailto:nicole.robicheau@gmail.com">Contact</a>
           <a href="/#sign-up-for-updates">Subscribe</a>
           <a href="/volunteer">Volunteer</a>
         </div>
