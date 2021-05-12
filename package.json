@@ -2,7 +2,7 @@
   "name": "robicheau.ca",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "./scripts/dev.sh",
     "build": "next build",
     "check": "npm-check --update",
     "preexport": "npm run build",

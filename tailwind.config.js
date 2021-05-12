@@ -7,6 +7,12 @@ module.exports = {
         primary: "#f472b6",
         secondary: "#373636",
       },
+      height: {
+        fit: "fit-content",
+      },
+      width: {
+        fit: "fit-content",
+      },
     },
   },
   variants: {
