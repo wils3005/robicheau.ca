@@ -24,6 +24,10 @@
   }
 }
 
+* {
+  font-family: Roboto;
+}
+
 /* higher-order layout */
 
 main {
