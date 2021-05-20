@@ -20,9 +20,9 @@ const MeetNicole: FC = () => {
             <p>
               I was born in Vancouver, grew up in a small community in Nova
               Scotia, and now call the Davenport riding in Toronto home. I’m a
-              queer, non-binary, French-speaking settler raised by a single
-              mother, and these intersections inform the work I do, and the way
-              I engage with the world.
+              queer, non-binary, Acadian settler raised by a single mother, and
+              these intersections inform the work I do, and the way I engage
+              with the world.
             </p>
             <p>
               I’ve worked in coffee shops, movie theatres, arcades and in retail
