@@ -20,13 +20,18 @@ const SignUpForUpdates: FC = () => {
       headers: {
         "Content-Type": "application/json",
       },
-      method: "POST",
+      method: "PUT",
     });
 
-    const { error } = (await res.json()) as { error?: string };
+    const { errors } = (await res.json()) as {
+      errors?: string[];
+    };
 
-    if (error) {
-      setMessage(error);
+    if (errors?.length) {
+      setMessage(
+        "Thanks for signing up, but something seems to have gone wrong, please contact nicole@robicheau.ca"
+      );
+
       return;
     }
 
@@ -34,7 +39,7 @@ const SignUpForUpdates: FC = () => {
     lastNameInputElement.current.value = "";
     emailInputElement.current.value = "";
     postalCodeInputElement.current.value = "";
-    setMessage("Success! 🎉 You are now subscribed!");
+    setMessage("Thanks for signing up!");
   };
 
   return (
@@ -83,9 +88,8 @@ const SignUpForUpdates: FC = () => {
         <button className="m-1 md:m-0 md:w-1/6" type="submit">
           Sign Up
         </button>
-        {message}
       </form>
-
+      <p className="text-white">{message}</p>
       <div className="flex flex-col">
         <h3 className="text-center">Connect with Nicole</h3>
         <div className="flex flex-row justify-center">

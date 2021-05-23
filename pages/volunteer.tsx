@@ -30,14 +30,22 @@ const Volunteer: FC = () => {
       headers: {
         "Content-Type": "application/json",
       },
-      method: "POST",
+      method: "PUT",
     });
 
+    const { errors } = (await res.json()) as {
+      errors?: string[];
+    };
+
+    if (errors?.length) {
+      setMessage(
+        "Thanks for putting yourself forward to affect change in Davenport, however something seems to have gone wrong, please contact nicole@robicheau.ca"
+      );
+      return;
+    }
+
     setMessage(
-      ((await res.json()) as {
-        [index: string]: unknown;
-        message: string;
-      }).message
+      "Thanks for putting yourself forward to affect change in Davenport. Someone from my team will be in touch soon. Let’s lead with humanity!"
     );
   };
 
@@ -127,8 +135,8 @@ const Volunteer: FC = () => {
             />
 
             <button type="submit">Submit</button>
-            {message}
           </form>
+          <p className="text-white">{message}</p>
         </div>
       </section>
     </Main>

@@ -1,4 +1,5 @@
-import { MAILCHIMP_VOLUNTEERS_LIST_ID } from "../../utils/env";
+import md5 from "md5";
+import { MAILCHIMP_LIST_ID } from "../../utils/env";
 import mailchimp from "../../utils/mailchimp";
 
 async function main(req, res) {
@@ -14,25 +15,27 @@ async function main(req, res) {
   } = req.body;
 
   try {
-    await mailchimp.lists.addListMember(MAILCHIMP_VOLUNTEERS_LIST_ID, {
+    await mailchimp.lists.updateListMember(MAILCHIMP_LIST_ID, md5(email), {
       email_address: email,
       status: "subscribed",
       merge_fields: {
         FNAME: firstName,
         LNAME: lastName,
+        POSTAL: postalCode,
         PHONE: phoneNumber,
-        MMERGE3: pronouns,
-        MMERGE5: postalCode,
-        MMERGE6: availability,
-        MMERGE7: info,
+        PRONOUNS: pronouns,
+        AVAILABLE: availability,
+        ADDITIONAL: info,
       },
     });
 
-    return res.status(201).json({ message: "TODO" });
+    return res.status(201).json({});
   } catch (error) {
+    console.error({ error });
+
     return res
       .status(error.status)
-      .json({ message: JSON.parse(error.response.text).title });
+      .json({ errors: [JSON.parse(error.response.text).title] });
   }
 }
 
