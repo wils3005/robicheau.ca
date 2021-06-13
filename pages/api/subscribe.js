@@ -20,8 +20,6 @@ async function main(req, res) {
 
     res.status(201).json({});
   } catch (_error) {
-    console.error({ _error });
-
     try {
       await mailchimp.lists.updateListMember(
         MAILCHIMP_LIST_ID,
