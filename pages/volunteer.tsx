@@ -136,7 +136,7 @@ const Volunteer: FC = () => {
 
             <button type="submit">Submit</button>
           </form>
-          <p className="text-white">{message}</p>
+          <p className="text-primary">{message}</p>
         </div>
       </section>
     </Main>
