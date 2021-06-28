@@ -10,6 +10,9 @@ module.exports = {
       height: {
         fit: "fit-content",
       },
+      padding: {
+        vid: "56.25%",
+      },
       width: {
         fit: "fit-content",
       },

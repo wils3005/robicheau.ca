@@ -3,8 +3,21 @@ import React, { FC } from "react";
 const WhyImRunning: FC = () => {
   return (
     <section className="bg-primary" id="why-im-running">
-      <div className="bg-white flex flex-col w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12">
+      <div className="bg-white block w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12">
         <h2>Why I&apos;m Running</h2>
+        <div className="relative pt-vid">
+          <iframe
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="absolute inset-0 p-2"
+            frameBorder="0"
+            height="100%"
+            src="https://www.youtube.com/embed/5W0yPFC9SMk"
+            title="YouTube video player"
+            width="100%"
+          />
+        </div>
+
         <p>
           How long can we keep putting out fires when we need to address the
           causes of the climate crisis?
