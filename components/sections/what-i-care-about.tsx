@@ -33,11 +33,10 @@ const WhatICareAbout: FC = () => {
         to meet those needs.
       </p>
       <p>
-        There are a large number of folks in Davenport and across the city of
-        Toronto who are underhoused and being pushed out of their own
-        communities. We need to do a better job of protecting these community
-        members by closing loopholes around evictions and making it harder to
-        raise rents.
+        There are a large number of folks across the city of Toronto who are
+        underhoused and being pushed out of their own communities. We need to do
+        a better job of protecting these community members by closing loopholes
+        around evictions and making it harder to raise rents.
       </p>
       <h3 className="bg-white text-black">Equitable Access to Healthcare</h3>
       <p>
@@ -50,11 +49,11 @@ const WhatICareAbout: FC = () => {
         have been able to receive, but where many barriers to access still
         remain. We must remove those barriers and acknowledge the systemic
         racism and transphobia that exists in healthcare, and work to do more to
-        ensure everyone in Davenport has access to the healthcare and
-        medications they need, at no cost.
+        ensure everyone has access to the healthcare and medications they need,
+        at no cost.
       </p>
       <img
-        alt="Nicole in a park in Davenport sitting down speaking to a pregnant woman with her partner and dog"
+        alt="Nicole in a park sitting down speaking to a pregnant woman with her partner and dog"
         className="float-right ml-2 lg:ml-4 w-1/2"
         src="nicole-robicheau-conversation-1417x992.jpg"
       />
@@ -65,8 +64,8 @@ const WhatICareAbout: FC = () => {
         their home countries. We need to make sure Canada welcomes more
         refugees, and we need to work to remove the barriers and bureaucracy
         around this process. Once they’re in our community, we need to do more
-        to support their integration into Davenport, and ensure they have access
-        to all the services they need.
+        to support their integration, and ensure they have access to all the
+        services they need.
       </p>
       <h3 className="bg-white text-black">Indigenous Rights</h3>
       <p>

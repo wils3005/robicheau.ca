@@ -52,17 +52,17 @@ const WhyImRunning: FC = () => {
           bring to Parliament Hill as your representative.
         </p>
         <p>
-          Let’s imagine a Davenport where everyone has access to the
+          Let’s imagine a community where everyone has access to the
           prescriptions and paid sick time they need, and where our loved ones
           are safe in not-for-profit long-term care. But let’s go beyond
           imagining and work together NOW for big and bold changes - where no
           one is left behind.
         </p>
         <p>
-          I believe our Davenport community can be a model for Canada and the
-          world in demonstrating that fair and equitable humanitarian policies
-          can positively affect outcomes for everyone, and that changes we make
-          to protect our most vulnerable will make life better for us all.
+          I believe our community can be a model for Canada and the world in
+          demonstrating that fair and equitable humanitarian policies can
+          positively affect outcomes for everyone, and that changes we make to
+          protect our most vulnerable will make life better for us all.
         </p>
         <p>
           To me, being a humanitarian means protecting human dignity, which
@@ -70,7 +70,7 @@ const WhyImRunning: FC = () => {
           and to alleviate suffering. I’m here now to harness our collective
           power to do what’s right for our community, our country and our
           planet. Please join me and let’s put our hearts and souls into winning
-          this riding, our community Davenport.
+          this riding, our community.
         </p>
       </div>
     </section>

@@ -39,13 +39,13 @@ const Volunteer: FC = () => {
 
     if (errors?.length) {
       setMessage(
-        "Thanks for putting yourself forward to affect change in Davenport, however something seems to have gone wrong, please contact nicole@robicheau.ca"
+        "Thanks for putting yourself forward to affect change, however something seems to have gone wrong, please contact nicole@robicheau.ca"
       );
       return;
     }
 
     setMessage(
-      "Thanks for putting yourself forward to affect change in Davenport. Someone from my team will be in touch soon. Let’s lead with humanity!"
+      "Thanks for putting yourself forward to affect change. Someone from my team will be in touch soon. Let’s lead with humanity!"
     );
   };
 
@@ -56,8 +56,8 @@ const Volunteer: FC = () => {
         <div className="flex flex-col w-11/12 md:w-10/12 lg:9/12 xl:8-12">
           <p>
             Thank you for your interest in volunteering to help me win the
-            nomination to be the next federal NDP candidate in Davenport. Please
-            complete this form and I’ll be in touch soon.
+            nomination to be the next federal NDP candidate. Please complete
+            this form and I’ll be in touch soon.
           </p>
           <h3 className="text-primary">Let&apos;s lead with humanity.</h3>
           <p className="text-xs">*required</p>
