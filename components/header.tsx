@@ -14,11 +14,11 @@ const Header: FC = () => {
           </a>
           <a
             className="bg-secondary h-fit paddingz rounded w-fit"
-            href="https://act.ndp.ca/donate/membership-en"
+            href="https://eda.ndp.ca/donation/35110-University--Rosedale-EN/"
             rel="noreferrer noopener"
             target="_blank"
           >
-            Join the NDP
+            Donate
           </a>
         </div>
         <div className="flex flex-row flex-wrap justify-center w-full">
@@ -26,7 +26,6 @@ const Header: FC = () => {
           <a href="/#what-i-care-about">My Priorities</a>
           <a href="mailto:nicole@robicheau.ca">Contact</a>
           <a href="/#sign-up-for-updates">Subscribe</a>
-          <a href="/volunteer">Volunteer</a>
         </div>
       </nav>
     </header>
