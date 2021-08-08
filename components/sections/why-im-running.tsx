@@ -25,19 +25,19 @@ const WhyImRunning: FC = () => {
           My experiences have shown me that human well-being is fragile, and
           that’s inspired me to seek better solutions to the challenges we face
           in our local communities and around the globe. I’m determined to
-          change the way decisions are made, and that’s why I’m seeking the NDP
-          nomination for the next federal election. Like you, I want meaningful
-          change - now and for the future.
+          change the way decisions are made. Like you, I want meaningful change
+          - now and for the future.
         </p>
         <p>
           I am actively engaged with different levels of grassroots community
           activism. I rallied a group of neighbours garnering support for the
-          integration of Fatima House. I sit on the board of a non-profit
-          providing layered support to at risk youth and also chair an ONDP
-          LGBTQ sub-committee that focuses on outreach, both in the community
-          and in the provincial legislature. I am passionate about working with
-          you for the changes we need in our community, and the influence I can
-          bring to Parliament Hill as your representative.
+          integration of a women’s shelter into my community. I sit on the board
+          of a non-profit providing layered support to at risk youth and also
+          chair an Ontario NDP LGBTQ sub-committee that focuses on outreach,
+          both in the community and in the provincial legislature. I am
+          passionate about working with you for the changes we need in our
+          community, and the influence I can bring to Parliament Hill as your
+          representative.
         </p>
         <p>
           Let’s imagine a community where everyone has access to the
