@@ -25,8 +25,9 @@ const WhyImRunning: FC = () => {
           My experiences have shown me that human well-being is fragile, and
           that’s inspired me to seek better solutions to the challenges we face
           in our local communities and around the globe. I’m determined to
-          change the way decisions are made. Like you, I want meaningful change
-          - now and for the future.
+          change the way decisions are made. Please join me and let’s put our
+          hearts and souls into winning this riding, our community
+          University-Rosedale.
         </p>
         <p>
           I am actively engaged with different levels of grassroots community
