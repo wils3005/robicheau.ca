@@ -18,7 +18,7 @@ const Header: FC = () => {
             rel="noreferrer noopener"
             target="_blank"
           >
-            Donate
+            Donate to My Campaign
           </a>
         </div>
         <div className="flex flex-row flex-wrap justify-center w-full">
