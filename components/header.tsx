@@ -5,13 +5,19 @@ const Header: FC = () => {
     <header>
       <nav className="paddingz content-center flex flex-col items-center justify-center w-full">
         <div className="flex flex-row items-center justify-between w-full">
-          <a href="/">
-            <h1>
+          <a className="relative" href="/">
+            <h1 className="inline-block">
               Nicole
               <br />
               ROBICHEAU
             </h1>
+            <img
+              alt="TODO"
+              className="paddingz absolute inline top-2 -right-2 w-1/2"
+              src="ndp-logo-white.png"
+            />
           </a>
+
           <a
             className="bg-secondary h-fit paddingz rounded w-fit"
             href="https://eda.ndp.ca/donation/35110-University--Rosedale-EN/"
@@ -24,7 +30,7 @@ const Header: FC = () => {
         <div className="flex flex-row flex-wrap justify-center w-full">
           <a href="/meet-nicole">Meet Nicole</a>
           <a href="/#what-i-care-about">My Priorities</a>
-          <a href="mailto:nicole@robicheau.ca">Contact</a>
+          <a href="mailto:nicole.robicheau@ndp.ca">Contact</a>
           <a href="/#sign-up-for-updates">Subscribe</a>
           <a href="/volunteer">Volunteer</a>
         </div>

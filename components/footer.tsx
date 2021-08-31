@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-const email = "nicole@robicheau.ca";
+const email = "nicole.robicheau@ndp.ca";
 
 const Footer: FC = () => {
   return (

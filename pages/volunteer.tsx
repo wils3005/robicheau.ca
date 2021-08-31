@@ -39,7 +39,7 @@ const Volunteer: FC = () => {
 
     if (errors?.length) {
       setMessage(
-        "Thanks for putting yourself forward to affect change, however something seems to have gone wrong, please contact nicole@robicheau.ca"
+        "Thanks for putting yourself forward to affect change, however something seems to have gone wrong, please contact nicole.robicheau@ndp.ca"
       );
       return;
     }

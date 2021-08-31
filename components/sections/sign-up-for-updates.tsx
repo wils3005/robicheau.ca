@@ -29,7 +29,7 @@ const SignUpForUpdates: FC = () => {
 
     if (errors?.length) {
       setMessage(
-        "Thanks for signing up, but something seems to have gone wrong, please contact nicole@robicheau.ca"
+        "Thanks for signing up, but something seems to have gone wrong, please contact nicole.robicheau@ndp.ca"
       );
 
       return;
