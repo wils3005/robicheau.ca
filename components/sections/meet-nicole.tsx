@@ -1,6 +1,7 @@
+import Image from "next/image";
 import React, { FC } from "react";
 
-const MeetNicole: FC = () => {
+export const MeetNicole: FC = () => {
   return (
     <section id="meet-nicole">
       <h2>Meet Nicole</h2>
@@ -52,14 +53,15 @@ const MeetNicole: FC = () => {
             healthcare system and has affected folks already most marginalized.
           </p>
         </div>
-        <img
-          alt="Nicole sitting casually on a blue couch smiling and leaning forward"
-          className="lg:w-1/3"
-          src="nicole-robicheau-indoor-headshot-1869x2800.jpg"
-        />
+        <div className="relative lg:w-1/3">
+          <Image
+            alt="Nicole sitting casually on a blue couch smiling and leaning forward"
+            height={2800}
+            src="/nicole-robicheau-indoor-headshot-1869x2800.jpg"
+            width={1869}
+          />
+        </div>
       </div>
     </section>
   );
 };
-
-export default MeetNicole;

@@ -12,8 +12,9 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": false,
-    "target": "ES5"
+    "target": "ES5",
+    "incremental": true
   },
-  "include": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules/"]
+  "include": ["next-env.d.ts", "**/*.js", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules/", "out/"]
 }

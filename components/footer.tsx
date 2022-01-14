@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 const email = "nicole@robicheau.ca";
 
-const Footer: FC = () => {
+export const Footer: FC = () => {
   return (
     <footer>
       <a href={`mailto:${email}`}>
@@ -22,5 +22,3 @@ const Footer: FC = () => {
     </footer>
   );
 };
-
-export default Footer;

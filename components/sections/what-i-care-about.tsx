@@ -1,14 +1,18 @@
+import Image from "next/image";
 import React, { FC } from "react";
 
-const WhatICareAbout: FC = () => {
+export const WhatICareAbout: FC = () => {
   return (
     <section className="block" id="what-i-care-about">
       <h2>What I Care About</h2>
-      <img
-        alt="Nicole in discussion with a Philippines local after Typhoon Haiyan"
-        className="float-left mr-2 lg:mr-4 w-1/4"
-        src="nicole-robicheau-field2-5184x3456.jpg"
-      />
+      <div className="float-left mr-2 lg:mr-4 relative w-1/4">
+        <Image
+          alt="Nicole in discussion with a Philippines local after Typhoon Haiyan"
+          height={3456}
+          src="/nicole-robicheau-field2-5184x3456.jpg"
+          width={5184}
+        />
+      </div>
       <h3 className="bg-white text-black">Climate Action</h3>
       <p>
         I have seen first-hand the devastating impacts of natural disasters,
@@ -52,11 +56,14 @@ const WhatICareAbout: FC = () => {
         ensure everyone has access to the healthcare and medications they need,
         at no cost.
       </p>
-      <img
-        alt="Nicole in a park sitting down speaking to a pregnant woman with her partner and dog"
-        className="float-right ml-2 lg:ml-4 w-1/2"
-        src="nicole-robicheau-conversation-1417x992.jpg"
-      />
+      <div className="float-right ml-2 lg:ml-4 relative w-1/2">
+        <Image
+          alt="Nicole in a park sitting down speaking to a pregnant woman with her partner and dog"
+          height={992}
+          src="/nicole-robicheau-conversation-1417x992.jpg"
+          width={1417}
+        />
+      </div>
       <h3 className="bg-white text-black">Welcoming Refugees</h3>
       <p>
         I have worked in refugee camps and spoken to folks who’ve travelled for
@@ -87,5 +94,3 @@ const WhatICareAbout: FC = () => {
     </section>
   );
 };
-
-export default WhatICareAbout;

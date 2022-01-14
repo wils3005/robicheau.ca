@@ -1,14 +1,14 @@
-import React, { FC, ReactNode } from "react";
 import Head from "next/head";
+import React, { FC, ReactNode } from "react";
 
-import Footer from "./footer";
-import Header from "./header";
-import SignUpForUpdates from "./sections/sign-up-for-updates";
+import { Footer } from "./footer";
+import { Header } from "./header";
+import { SignUpForUpdates } from "./sections/sign-up-for-updates";
 
 const TITLE =
   " Nicole Robicheau | Let's lead with humanity | University-Rosedale, TO";
 
-const Main: FC = ({ children }: { children: ReactNode }) => {
+export const Main: FC = ({ children }: { children: ReactNode }) => {
   return (
     <main>
       <Head>
@@ -35,5 +35,3 @@ const Main: FC = ({ children }: { children: ReactNode }) => {
     </main>
   );
 };
-
-export default Main;

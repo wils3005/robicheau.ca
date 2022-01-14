@@ -1,6 +1,6 @@
 import React, { BaseSyntheticEvent, FC, useRef, useState } from "react";
 
-const SignUpForUpdates: FC = () => {
+export const SignUpForUpdates: FC = () => {
   const firstNameInputElement = useRef<HTMLInputElement>(null);
   const lastNameInputElement = useRef<HTMLInputElement>(null);
   const emailInputElement = useRef<HTMLInputElement>(null);
@@ -85,7 +85,7 @@ const SignUpForUpdates: FC = () => {
           type="text"
         />
 
-        <button className="m-1 md:m-0 md:w-1/6" type="submit">
+        <button className="bg-secondary m-1 md:m-0 md:w-1/6" type="submit">
           Sign Up
         </button>
       </form>
@@ -151,5 +151,3 @@ const SignUpForUpdates: FC = () => {
     </section>
   );
 };
-
-export default SignUpForUpdates;
